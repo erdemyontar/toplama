@@ -42,7 +42,7 @@ function hesapla(e) {
    */
 
   if (! tahmin.value) {
-    alert('Lütfen bir sayı yazınız.')
+    alert('Lütfen bir sayı yazınız...')
     return
   }
 
