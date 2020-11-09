@@ -46,6 +46,11 @@ function hesapla(e) {
     return
   }
 
+  if ( tahmin.value > enFazla || tahmin.value < enAz ) {
+    alert(`Lütfen ${enAz} ve ${enFazla} değerleri arasında bir sayı giriniz.`)
+    return
+  }
+
   if (sayi == tahmin.value) {
     tahminler.innerHTML += `<li>${tahmin.value} : Bildiniz</li>`
   }
