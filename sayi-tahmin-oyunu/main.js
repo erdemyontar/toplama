@@ -6,8 +6,8 @@
  * Erdem'le birlikte
  */
 
-const enAz = 50
-const enFazla = 100
+const enAz = 100
+const enFazla = 500
 
 /**
  * 0 * 20 + 1 = 1
